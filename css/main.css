@@ -1,0 +1,27 @@
+body {
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+}
+
+main {
+    overflow: auto;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+main {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.title-block {
+    width: 100vw;
+    height: calc(100vh - 130px);
+    background-size: cover;
+}
