@@ -1,0 +1,19 @@
+.main-header {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+}
+
+.olive-branches {
+    text-align: center;
+}
+
+.olive-branches img {
+    width: 42px;
+    height: 42px;
+}
+
+.olive-branches img:not(.olive-branches img:first-child) {
+    margin-left: 20px;
+}
